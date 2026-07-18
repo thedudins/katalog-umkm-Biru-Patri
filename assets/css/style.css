@@ -178,22 +178,13 @@ img:hover{
 
 .hero-en{
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
     font-style: italic;
-    color:#7a7a7a;
-    font-size:20px;
+    font-weight:500;
+    color:#777;
+    font-size:22px;
     line-height:1.6;
     margin-bottom:25px;
-
-}
-
-@media (max-width:768px){
-
-    .hero-en{
-
-        font-size:16px;
-
-    }
 
 }
 
@@ -359,11 +350,12 @@ TENTANG
 
 .en-text{
 
-    font-size:17px;
-    font-family:Georgia, "Times New Roman", serif;
+    font-family: "Cormorant Garamond", serif;
+    font-size:22px;
     font-style:italic;
-    color:#7a7a7a;
-    line-height:1.8;
+    font-weight:500;
+    color:#777;
+    line-height:1.6;
     margin-bottom:25px;
 
 }
@@ -697,6 +689,22 @@ GALERI SLIDER
     .swiper-slide img{
 
         height:220px;
+
+    }
+
+}
+
+/* ======================
+BILINGUAL MOBILE
+====================== */
+
+@media (max-width:768px){
+
+    .en-text,
+    .hero-en{
+
+        font-size:19px;
+        line-height:1.6;
 
     }
 
